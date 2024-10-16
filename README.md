@@ -12,7 +12,7 @@ This means that if you have a different browser tab/window open, or you are usin
 
 This is good for privacy and security reasons, but it does present a problem: Teams will assume that you aren't using your computer.
 
-Teams will then automatically set your status to "Away", making other people think that you aren't at your computer, and will also result in Teams not checking for new messages as regularly as it should.
+Teams will then automatically set your status to "Away", making other people mistakenly think that you aren't available, and will also result in Teams not checking for new messages as regularly as it should.
 
 This problem has become more apparent as Microsoft has shifted away from native desktop apps for some platforms (eg. Linux) and replaced the native apps with web versions, leaving those users with broken "Away" functionality.
 
@@ -24,3 +24,9 @@ These aren't real mouse movement events. So your mouse won't move, but the websi
 
 Also, since they aren't real mouse movement events, it will work even if Teams isn't in the active browser tab, if it's on a different workspace/virtual desktop, and so on.
 
+## TODO
+
+- install instructions
+- provide builds on github release
+- github action for compiling automatically
+- publish on browser extension stores
