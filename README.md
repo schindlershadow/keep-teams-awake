@@ -26,9 +26,44 @@ These aren't real mouse movement events. So your mouse won't move, but the websi
 
 Also, since they aren't real mouse movement events, it will work even if Teams isn't in the active browser tab, if it's on a different workspace/virtual desktop, and so on.
 
+## Install
+
+### Extension Store
+
+* Not yet available for Chrome. Currently pending approval on the Chrome Web Store.
+
+For Firefox, you can install Keep Teams Awake from the [firefox addon website](https://addons.mozilla.org/en-US/firefox/addon/keep-teams-awake/).
+
+### Direct Download
+
+Download the [latest release](https://github.com/mcarr823/keep-teams-awake/releases/latest) from GitHub.
+
+For Firefox, download the firefox.xpi file. Right-click on the downloaded file and choose to open it with Firefox.
+
+For Chrome, download the chrome.zip file, then go to the Chrome extensions page by either:
+
+- entering chrome://extensions in your address bar
+- clicking on the Extensions icon to the right side of your address bar and clicking on Manage Extensions, or 
+- opening the browser menu and going to Settings -> Extensions
+
+From the extensions page, enable Developer Mode by ticking the checkbox in the upper-right corner.
+
+Then drag and drop the chrome.zip file onto the web page to install it.
+
+### From Source
+
+* Firefox does not support this.
+
+For Chrome, follow the steps above to enable Developer Mode and go to the Manage Extensions page.
+
+Clone this repository, or download the latest source code zip and extract it.
+
+Then click on the "Load Unpacked" button and select the `src` directory in the downloaded source code.
+
+That will tell Chrome to install the content in the `src` directory as a browser extension.
+
+
 ## TODO
 
-- install instructions
-- provide builds on github release
-- github action for compiling automatically
-- publish on browser extension stores
+- GitHub action for compiling automatically
+- publish on Chrome store and add link
