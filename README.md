@@ -1,5 +1,7 @@
 # Keep Teams Awake
 
+[![Install Addon Firefox](images/firefox-get-the-addon.png)](https://addons.mozilla.org/en-US/firefox/addon/keep-teams-awake/)
+
 Keep Teams Awake is a very simple, barebones "mouse jiggler" browser extension for Microsoft Teams.
 
 It works on Firefox and Chrome-based browsers.
