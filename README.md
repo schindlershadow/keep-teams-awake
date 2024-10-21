@@ -1,6 +1,7 @@
 # Keep Teams Awake
 
 [![Install Addon Firefox](images/firefox-get-the-addon.png)](https://addons.mozilla.org/en-US/firefox/addon/keep-teams-awake/)
+[![Install Addon Chrome](images/chrome-get-the-addon.png)](https://chromewebstore.google.com/detail/keepteamsawake/acofimfooiojfhnokmddfgmlfnjnhobp)
 
 Keep Teams Awake is a very simple, barebones "mouse jiggler" browser extension for Microsoft Teams.
 
@@ -30,9 +31,9 @@ Also, since they aren't real mouse movement events, it will work even if Teams i
 
 ### Extension Store
 
-* Not yet available for Chrome. Currently pending approval on the Chrome Web Store.
+For Firefox, you can install Keep Teams Awake from the [Firefox Addon website](https://addons.mozilla.org/en-US/firefox/addon/keep-teams-awake/).
 
-For Firefox, you can install Keep Teams Awake from the [firefox addon website](https://addons.mozilla.org/en-US/firefox/addon/keep-teams-awake/).
+For Chrome, you can install the extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/keepteamsawake/acofimfooiojfhnokmddfgmlfnjnhobp).
 
 ### Direct Download
 
@@ -66,4 +67,3 @@ That will tell Chrome to install the content in the `src` directory as a browser
 ## TODO
 
 - GitHub action for compiling automatically
-- publish on Chrome store and add link
