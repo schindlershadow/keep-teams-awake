@@ -1,9 +1,17 @@
 {
   "manifest_version": 3,
   "name": "KeepTeamsAwake",
-  "version": "1.0",
+  "version": "1.0.1",
 
   "description": "Prevents the Microsoft Teams website or PWA from sleeping",
+
+  "action": {
+    "default_icon": {
+      "48": "icons/48.png",
+      "96": "icons/96.png",
+      "128": "icons/128.png"
+    }
+  },
 
   "icons": {
     "48": "icons/48.png",
