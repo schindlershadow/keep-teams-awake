@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "KeepTeamsAwake",
-  "version": "1.0.2",
+  "name": "KeepTeamsAwake2",
+  "version": "2.0.0",
 
   "description": "Prevents the Microsoft Teams website or PWA from sleeping",
 
@@ -27,14 +27,14 @@
 
   "content_scripts": [
     {
-      "matches": ["https://teams.live.com/*", "https://teams.microsoft.com/*"],
+      "matches": ["https://teams.live.com/*", "https://teams.microsoft.com/*", "https://teams.microsoft.com.mcas.ms/*", "https://dod.teams.microsoft.us.mcas-gov.us/*"],
       "js": ["main.js"]
     }
   ],
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "keepteamsawake@mcarr.dev"
+      "id": "schindlershadow@gmail.com"
     }
   }
 
